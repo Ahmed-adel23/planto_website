@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link href="./all.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-…(hash)…"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Planto website</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header
+      class="header fixed w-full top-0 left-0 z-50 backdrop-blur-xl shadow-2xl shadow-black lg:shadow-none bg-transparent sm:backdrop-blur-0"
+    >
+      <nav
+        class="container relative mx-auto h-16 flex justify-between items-center px-4"
+      >
+        <div id="title" class="text-white text-3xl font-lobster w-[15%]">
+          <h1>IndorePlants.</h1>
+        </div>
+
+        <div
+          id="nav"
+          class="hidden sm:flex sm:bg-transparent absolute sm:static bg-green-950 sm:backdrop-blur-0 top-0 left-0 w-full sm:w-auto h-[100vh] sm:h-auto flex-col sm:flex-row justify-center sm:justify-end items-center space-y-8 sm:space-y-0 sm:space-x-12 text-white text-xl z-40"
+        >
+          <ul
+            class="font-jost font-bold flex flex-col sm:flex-row space-y-5 sm:space-y-0 sm:space-x-12 text-center h-full justify-center"
+          >
+            <li class="capitalize hover:text-amber-400">
+              <a href="#main">home</a>
+            </li>
+            <li class="capitalize hover:text-amber-400">
+              <a href="#about">about</a>
+            </li>
+            <li class="capitalize hover:text-amber-400">
+              <a href="#pricing">products</a>
+            </li>
+            <li class="capitalize hover:text-amber-400">
+              <a href="#review">reviews</a>
+            </li>
+          </ul>
+          <div class="absolute sm:hidden -left-10 rotate-180 -top-5">
+            <img src="./assets/img/leaf-1.png" alt="" class="w-32" />
+          </div>
+          <div class="absolute sm:hidden -right-10 d -rotate-90 bottom-0">
+            <img src="./assets/img/leaf-2.png" alt="" class="w-32" />
+          </div>
+        </div>
+
+        <div id="icon" class="text-3xl z-50 sm:hidden cursor-pointer">
+          <i class="fa fa-rectangle-list text-white"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="w-full sm:min-h-[80vh] mt-30 scroll-smooth relative">
+      <div
+        id="main"
+        class="container scroll-mt-20 px-5 mx-auto flex flex-col mim-h-[85vh] md:flex-row justify-between items-center"
+      >
+        <div class="w-full md:w-[40%] text-white">
+          <h1 class="font-jost font-bold text-2xl lg:text-6xl">
+            <span class="text-amber-400">plants</span> make a positive
+            <span class="text-amber-400">impact</span> on your enviroment
+          </h1>
+          <p class="text-[14px] py-3 text-gray-300 font-lobster">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+            quis dicta porro saepe perferendis id molestias nobis, quae soluta,
+            minus ex neque praesentium sint temporibus vitae mollitia placeat?
+            Iusto, debitis.
+          </p>
+          <div class="flex justify-center sm:justify-normal gap-x-3 sm:gap-4">
+            <button
+              class="h-12 min-w-42 bg-amber-400 text-white rounded-xl cursor-pointer font-jost font-bold"
+            >
+              shop now <i class="fa fa-shop pl-1"></i>
+            </button>
+            <button
+              class="h-12 min-w-42 bg-transparent transition hover:bg-amber-400 border-amber-400 border-1 text-white rounded-xl cursor-pointer font-jost font-bold"
+            >
+              know more <i class="fa fa-book-reader pl-1"></i>
+            </button>
+          </div>
+          <p class="text-[14px] pt-2 px-1.5 font-lobster text-gray-300">
+            this will get 30 days free
+          </p>
+          <div></div>
+        </div>
+        <div class="relative min-h-60 md:w-[60%] pt-5">
+          <img src="./assets/img/home.png" alt="" class="sm:w-[60%] ml-auto" />
+          <p
+            class="absolute top-10 sm:top-3 right-0 opacity-30 text-amber-400 text-[30px]"
+          >
+            <i class="fa fa-candy-cane"></i>
+          </p>
+          <p
+            class="absolute bottom-10 sm:bottom-0 sm:right-10 opacity-30 text-amber-400 text-[30px]"
+          >
+            <i class="fa fa-cake"></i>
+          </p>
+          <p
+            class="absolute top-7 md:top-20 text-center opacity-30 left-0 md:left-4/12 text-amber-400 text-[30px]"
+          >
+            <i class="fa fa-cubes"></i>
+          </p>
+        </div>
+      </div>
+      <section class="about-us scroll-mt-5" id="about">
+        <div class="container px-5 mx-auto py-20 sm:py-10">
+          <div class="text-center">
+            <h1
+              class="capitalize font-lobster text-4xl sm:text-5xl text-amber-400"
+            >
+              about us
+            </h1>
+            <p
+              class="text-[14px] pt-2 px-1.5 font-jost font-bold text-gray-300"
+            >
+              follow instructions for more
+            </p>
+          </div>
+          <div class="flex flex-col-reverse sm:flex-row pt-10 items-center">
+            <div class="min-h-60 md:w-[60%]">
+              <img src="./assets/img/plant-1.png" alt="" class="sm:w-[50%]" />
+            </div>
+            <div class="w-full md:w-[40%] text-white text-center sm:text-start">
+              <h1 class="font-jost font-bold text-2xl sm:text-3xl lg:text-6xl">
+                make your <span class="text-amber-400">organic</span> garden
+              </h1>
+              <p
+                class="text-[12px] lg:text-[14px] py-3 font-lobster text-gray-300"
+              >
+                Beyond aesthetics, the commitment to an organic garden starts
+                with the air we breathe. Indoor plants are nature’s finest air
+                purifiers, actively removing toxins like formaldehyde and
+                benzene emitted by modern furnishings and building materials
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col-reverse sm:flex-row-reverse pt-10 items-center"
+          >
+            <div class="min-h-60 md:w-[60%]">
+              <img
+                src="./assets/img/plant-2.png"
+                alt=""
+                class="sm:w-[50%] ml-auto"
+              />
+            </div>
+            <div class="w-full md:w-[40%] text-white text-center sm:text-start">
+              <h1 class="font-jost font-bold text-2xl sm:text-3xl lg:text-6xl">
+                make your <span class="text-amber-400">organic</span> garden
+              </h1>
+              <p
+                class="text-[12px] lg:text-[14px] py-3 font-lobster text-gray-300"
+              >
+                we believe that incorporating nature into your daily life is not
+                a luxury, but a necessity for well-being. Our mission is to
+                transform your living and working spaces into rejuvenating green
+                sanctuaries, fostering a deep sense of calm and connection with
+                the natural world.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="popular bg-green-800 w-full scroll-mt-5" id="pricing">
+        <div class="container px-5 mx-auto py-20 sm:py-10">
+          <div class="text-center pb-30 sm:pb-0">
+            <h1
+              class="capitalize font-lobster text-4xl sm:text-5xl text-amber-400"
+            >
+              your choice plant
+            </h1>
+            <p
+              class="text-[14px] pt-2 px-1.5 font-jost font-extrabold text-gray-300"
+            >
+              follow instructions for more
+            </p>
+          </div>
+          <div
+            class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 gap-y-35 gap-x-5 md:gap-y-0 mt-15 sm:mt-30 lg:mt-0 items-center sm:min-h-[90vh]"
+          >
+            <div
+              class="relative min-h-70 w-[80%] mx-auto bg-green-950 rounded-xl shadow hover:shadow-amber-400 transition"
+            >
+              <div class="img-plant h-50 w-[75%] mx-auto mt-[-120px]">
+                <img
+                  src="./assets/img/cart-1.png"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </div>
+              <div class="p-6 text-white">
+                <p class="font-lobster text-[18px]">ficus elastica</p>
+                <h3 class="font-jost font-bold text-2xl">rubber plant</h3>
+                <div class="mt-2 text-[10px]">
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <div class="flex justify-between mt-6 text-[20px]">
+                  <p class="font-bold">5$</p>
+                  <p class="bg-amber-400 p-1 px-3 cursor-pointer rounded-xl hover:opacity-85">
+                    <i class="fa fa-cart-shopping"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="relative min-h-70 w-[80%] mx-auto bg-green-950 rounded-xl shadow transition hover:shadow-amber-400 "
+            >
+              <div class="img-plant h-50 w-[75%] mx-auto mt-[-120px]">
+                <img
+                  src="./assets/img/cart-2.png"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </div>
+              <div class="p-6 text-white">
+                <p class="font-lobster text-[18px]">ficus elastica</p>
+                <h3 class="font-jost font-bold text-2xl">rubber plant</h3>
+                <div class="mt-2 text-[10px]">
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <div class="flex justify-between mt-6 text-[20px]">
+                  <p class="font-bold">5$</p>
+                  <p class="bg-amber-400 p-1 px-3 cursor-pointer rounded-xl hover:opacity-85">
+                    <i class="fa fa-cart-shopping"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="relative min-h-70 w-[80%] mx-auto bg-green-950 rounded-xl shadow hover:shadow-amber-400 transition"
+            >
+              <div class="img-plant h-50 w-[75%] mx-auto mt-[-120px]">
+                <img
+                  src="./assets/img/cart-3.png"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </div>
+              <div class="p-6 text-white">
+                <p class="font-lobster text-[18px]">ficus elastica</p>
+                <h3 class="font-jost font-bold text-2xl">rubber plant</h3>
+                <div class="mt-2 text-[10px]">
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <div class="flex justify-between mt-6 text-[20px]">
+                  <p class="font-bold">5$</p>
+                  <p class="bg-amber-400 p-1 px-3 cursor-pointer rounded-xl hover:opacity-85">
+                    <i class="fa fa-cart-shopping"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="relative min-h-70 w-[80%] mx-auto bg-green-950 rounded-xl shadow hover:shadow-amber-400 transition"
+            >
+              <div class="img-plant h-50 w-[75%] mx-auto mt-[-120px]">
+                <img
+                  src="./assets/img/cart-4.png"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </div>
+              <div class="p-6 text-white">
+                <p class="font-lobster text-[18px]">ficus elastica</p>
+                <h3 class="font-jost font-bold text-2xl">rubber plant</h3>
+                <div class="mt-2 text-[10px]">
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star text-amber-400"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <div class="flex justify-between mt-6 text-[20px]">
+                  <p class="font-bold">5$</p>
+                  <p class="bg-amber-400 p-1 px-3 cursor-pointer rounded-xl hover:opacity-85">
+                    <i class="fa fa-cart-shopping"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="customer w-full scroll-mt-5" id="review">
+        <div class="container px-5 mx-auto py-20 sm:py-10">
+          <div class="popular-header text-center pb-5 sm:pb-0">
+            <h1
+              class="font-lobster capitalize text-4xl sm:text-5xl text-amber-400"
+            >
+              Customer Reviews
+            </h1>
+            <p
+              class="text-[14px] pt-2 px-1.5 font-jost font-bold text-gray-300"
+            >
+              The kind words shared by our amazing plant
+            </p>
+          </div>
+
+          <div
+            class="container mx-auto grid grid-cols-1 w-full sm:w-11/12 lg:grid-cols-3 gap-5 mt-15 sm:mt-20 mb-30 items-center"
+          >
+            <div class="text-white bg-green-800 p-5 rounded-xl shadow-lg">
+              <p class="font-lobster font-lobster text-lg leading-relaxed">
+                "The quality of the plants is astonishing! My Macroya seedlings
+                arrived perfectly safe in professional packaging. Their vibrant
+                colors instantly brought life to my home. A truly delightful
+                experience."
+              </p>
+              <div class="text-amber-400 mt-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+              <div class="flex gap-x-2 mt-5 items-center">
+                <img
+                  src="./assets/img/testimonials-4.jpg"
+                  alt="Customer Sarah's photo"
+                  class="h-18 w-18 rounded-full object-cover"
+                />
+                <div class="text-lg capitalize font-jost font-bold">
+                  <h5 class="text-amber-400 uppercase font-bold">
+                    mohamed Ahmed
+                  </h5>
+                  <p class="text-sm">Landscape Designer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-white bg-green-800 p-5 rounded-xl shadow-lg">
+              <p class="font-lobster font-lobster text-lg leading-relaxed">
+                "I consistently rely on IndorePlants. for all my styling
+                projects. The plants are healthy and add a unique aesthetic
+                touch. The delivery speed and product safety are unmatched. Big
+                thanks to the team!"
+              </p>
+              <div class="text-amber-400 mt-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+
+              <div class="flex gap-x-2 mt-5 items-center">
+                <img
+                  src="./assets/img/testimonial-2.jpg"
+                  alt="Customer Khalid's photo"
+                  class="h-18 w-18 rounded-full object-cover"
+                />
+                <div class="text-lg capitalize font-jost font-bold">
+                  <h5 class="text-amber-400 uppercase font-bold">ahmed adel</h5>
+                  <p class="text-sm">Web Developer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-white bg-green-800 p-5 rounded-xl shadow-lg">
+              <p class="font-lobster font-lobster text-lg leading-relaxed">
+                "This was my first time ordering plants online, and it exceeded
+                all expectations! The plants arrived fresh, full-sized, and the
+                prices are excellent for the quality provided. A very reliable
+                store."
+              </p>
+              <div class="text-amber-400 mt-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="flex gap-x-2 mt-5 items-center">
+                <img
+                  src="./assets/img/testimonials-1.jpg"
+                  alt="Customer Mona's photo"
+                  class="h-18 w-18 rounded-full object-cover"
+                />
+                <div class="text-lg capitalize font-jost font-bold">
+                  <h5 class="text-amber-400 uppercase font-bold">
+                    khaled nasser
+                  </h5>
+                  <p class="text-sm">Horticulture Enthusiast</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="bg-[#fcfcea] pt-12 pb-6 text-gray-700 scroll-mt-5 relative"
+      id="footer"
+    >
+      <div
+        class="bg-green-900 p-5 rounded-md text-white w-[90%] sm:w-[75%] flex flex-col gap-2 mx-auto min-h-20 absolute top-0 left-[50%] transform -translate-1/2"
+      >
+        <h3 class="text-xl sm:text-3xl font-jost font-bold">
+          subscribe for this site
+        </h3>
+        <div class="flex flex-col sm:flex-row gap-x-3 gap-y-3">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="sm:w-[85%] bg-white text-black border p-2 rounded-md outline-none"
+          />
+          <button
+            class="bg-green-700 font-jost cursor-pointer text-white font-semibold py-3 px-6 rounded-md hover:bg-green-600 transition duration-300 flex items-center justify-center"
+          >
+            Subscribe
+            <i class="fas fa-arrow-right ml-2"></i>
+          </button>
+        </div>
+      </div>
+      <div
+        class="container mx-auto px-4 mt-20 relative text-center sm:text-start"
+      >
+        <div
+          class="flex justify-center space-x-6 absolute left-[50%] transform -translate-x-1/2 z-10 -top-4 backdrop-blur-lg px-4 text-xl"
+        >
+          <a href="#" class="hover:text-gray-900 transition duration-300"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" class="hover:text-gray-900 transition duration-300"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="#" class="hover:text-gray-900 transition duration-300"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" class="hover:text-gray-900 transition duration-300"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+
+        <hr class="border-gray-300 mb-8 max-w-4xl mx-auto" />
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-4xl mt-20 mx-auto"
+        >
+          <div class="flex flex-col items-center mb-6 md:mb-0">
+            <i class="fas fa-leaf text-green-700 text-3xl mb-2"></i>
+            <p class="text-xl font-bold text-gray-800 font-lobster">
+              IndorePlants.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4 text-gray-800 font-lobster">
+              Quick Link
+            </h4>
+            <ul class="space-y-2 text-sm font-jost">
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Plants</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Flowers</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Gardening</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Seeds</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Shipping</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4 text-gray-800 font-lobster">
+              Popular Services
+            </h4>
+            <ul class="space-y-2 text-sm font-jost">
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Tree Planting</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Grass Cutting</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Weeds Control</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Project</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4 text-gray-800 font-lobster">
+              Contact Us
+            </h4>
+            <p class="text-sm space-y-2 font-jost">
+              <span class="block">+88 333 78 901</span>
+              <a
+                href="mailto:lightcodecamp@gmail.com"
+                class="block hover:text-green-700 transition duration-300"
+                >lightcodecamp@gmail.com</a
+              >
+              <span class="block pt-2">1234 Tailwind Ave, CSS City,</span>
+              <span class="block">Webland 56789, USA</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="mt-10 pt-4 border-t border-gray-300 text-center text-xs text-gray-500 max-w-4xl mx-auto font-jost"
+        >
+          <p>Copyright &copy; 2024 LightCode All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <button class="btn hidden cursor-pointer right-5 bottom-5 z-30">
+      <i class="fa fa-arrow-alt-circle-up text-amber-400 text-5xl"></i>
+    </button>
+  </body>
+  <script src="./script.js"></script>
+</html>
